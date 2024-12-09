@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d50000;
+  color: white;
+}
+
+.menu button,
+.actions button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-top: 5px solid #d50000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar .inputs input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.search-bar .options input,
+.search-bar .options button {
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.offers {
+  padding: 20px;
+}
+
+.offers h2 {
+  margin-bottom: 20px;
+}
+
+.offer-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.offer-card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+}
+
+.offer-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d50000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.offer-card button:hover {
+  background-color: #a40000;
+}

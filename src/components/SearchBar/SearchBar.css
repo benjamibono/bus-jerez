@@ -1,0 +1,24 @@
+.search-bar .inputs input,
+.search-bar .options input {
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 5px;
+  margin: 5px;
+}
+
+.modo-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.modo-button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.modo-button.active {
+  background-color: #007bff;
+  color: white;
+}

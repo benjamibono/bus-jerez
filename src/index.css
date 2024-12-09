@@ -1,0 +1,12 @@
+/* index.css */
+body {
+  /* Remove default margin */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
